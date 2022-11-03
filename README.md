@@ -26,4 +26,4 @@ https://vnjuguna.github.io/week-three-ip-quizboard/
 No known bugs
 ## Licence information with a copyright and date
 email: vionju@gmail.com
-(c) 2022 Violet Njuguna, Version Date 3rd November 2022.
+(c) 2022 Violet Njuguna, Version Date 3rd November 2022
