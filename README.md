@@ -12,7 +12,7 @@ Tests the users knowledge on HTML, CSS and Javascript.
 - GIT and GITHUB
 - Bootstrap
 ## Complete Setup Instructions
-- Git clone https://github.com/vnjuguna/week-two-ip.git
+- Git clone https://github.com/vnjuguna/week-three-ip-quizboard
 - Open the cloned Code on Vs Code
 - Run with Live Server
 ## BDD
