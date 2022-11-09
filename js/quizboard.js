@@ -30,7 +30,7 @@ submitAnswer.addEventListener("click", function (event) {
   } else if (score >= 50 && score < 80) {
     message += "your score is " + score + "%. Fairly Passed!";
   } else {
-    message += "your score is " + score + "%. Poor result!";
+    message += "your score is " + score + "%. Poor result, please retake the test!";
   }
 
   mymarks.textContent = message;
