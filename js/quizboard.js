@@ -41,5 +41,13 @@ $("document").ready(function () {
   $("#submit_ans").click(function () {
     $("#display").removeClass("d-none");
     $(".ouranswers").attr("disabled",true);
+    $(this).attr("disabled", true);
   });
+  $(".retake").click(function(){
+    $("#submit_ans").attr("disabled", false);
+    $(".ouranswers").attr("disabled",false);
+    $(".ouranswers").prop("checked",false);
+    $("#display").addClass("d-none");
+  });
+
 });
