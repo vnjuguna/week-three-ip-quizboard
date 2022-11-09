@@ -1,5 +1,5 @@
 body{
-  background-color: #CCCCFF;
+  background-color: #2F3C7E;
 	font-size: 20px;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
@@ -7,7 +7,7 @@ body{
 h1
 {
 	background-color: black;
-	color: white;
+	color: #FBEAEB;
 	margin: 0%;
 	text-align: center;
 	font-size: 60px;
@@ -17,4 +17,19 @@ h1
 img
 {
 	float: right;
+}
+ div em
+ {
+	color: #FBEAEB;
+	font-size: 30px;
+ }
+
+div p
+{
+	color: #FBEAEB;
+}
+
+h6
+{
+	color: #FBEAEB;
 }
