@@ -34,10 +34,12 @@ submitAnswer.addEventListener("click", function (event) {
   }
 
   mymarks.textContent = message;
+  marks = 0;
 });
 
 $("document").ready(function () {
   $("#submit_ans").click(function () {
     $("#display").removeClass("d-none");
+    $(".ouranswers").attr("disabled",true);
   });
 });
