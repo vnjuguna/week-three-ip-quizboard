@@ -9,45 +9,45 @@ let marks = 0;
 let total = 0;
 
 quizAnswers.forEach(function (jibu) {
-  if (parseInt(jibu.value) > 0) {
-    total += parseInt(jibu.value);
-  }
+    if (parseInt(jibu.value) > 0) {
+        total += parseInt(jibu.value);
+    }
 });
 
 submitAnswer.addEventListener("click", function (event) {
-  quizAnswers.forEach(function (jibu) {
-    if (jibu.checked) {
-      marks += parseInt(jibu.value);
+    quizAnswers.forEach(function (jibu) {
+        if (jibu.checked) {
+            marks += parseInt(jibu.value);
+        }
+    });
+
+    let score = (marks / total) * 100;
+
+    let message = "";
+
+    if (score >= 80) {
+        message += "your score is " + score + "%. Excellent!";
+    } else if (score >= 50 && score < 80) {
+        message += "your score is " + score + "%. Fairly Passed!";
+    } else {
+        message +=
+            "your score is " + score + "%. Poor result, please retake the test!";
     }
-  });
 
-  let score = (marks / total) * 100;
-
-  let message = "";
-
-  if (score >= 80) {
-    message += "your score is " + score + "%. Excellent!";
-  } else if (score >= 50 && score < 80) {
-    message += "your score is " + score + "%. Fairly Passed!";
-  } else {
-    message += "your score is " + score + "%. Poor result, please retake the test!";
-  }
-
-  mymarks.textContent = message;
-  marks = 0;
+    mymarks.textContent = message;
+    marks = 0;
 });
 
 $("document").ready(function () {
-  $("#submit_ans").click(function () {
-    $("#display").removeClass("d-none");
-    $(".ouranswers").attr("disabled",true);
-    $(this).attr("disabled", true);
-  });
-  $(".retake").click(function(){
-    $("#submit_ans").attr("disabled", false);
-    $(".ouranswers").attr("disabled",false);
-    $(".ouranswers").prop("checked",false);
-    $("#display").addClass("d-none");
-  });
-
+    $("#submit_ans").click(function () {
+        $("#display").removeClass("d-none");
+        $(".ouranswers").attr("disabled", true);
+        $(this).attr("disabled", true);
+    });
+    $(".retake").click(function () {
+        $("#submit_ans").attr("disabled", false);
+        $(".ouranswers").attr("disabled", false);
+        $(".ouranswers").prop("checked", false);
+        $("#display").addClass("d-none");
+    });
 });

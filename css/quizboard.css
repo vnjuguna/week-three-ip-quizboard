@@ -1,35 +1,31 @@
-body{
-  background-color: #2F3C7E;
+body {
+	background-color: #2f3c7e;
 	font-size: 20px;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
-h1
-{
+
+h1 {
 	background-color: black;
-	color: #FBEAEB;
+	color: #fbeaeb;
 	margin: 0%;
 	text-align: center;
 	font-size: 60px;
 }
 
-
-img
-{
+img {
 	float: right;
 }
- div em
- {
-	color: #FBEAEB;
-	font-size: 30px;
- }
 
-div p
-{
-	color: #FBEAEB;
+div em {
+	color: #fbeaeb;
+	font-size: 30px;
 }
 
-h6
-{
-	color: #FBEAEB;
+div p {
+	color: #fbeaeb;
+}
+
+h6 {
+	color: #fbeaeb;
 }

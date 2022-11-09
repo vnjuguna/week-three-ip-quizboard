@@ -3,147 +3,136 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
 
-  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Indigo's Quiz Board</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="css/quizboard.css">
-  
+  <link rel="stylesheet" href="css/quizboard.css" />
 </head>
 
 <body>
+  <img src="images/Quiz_Image_Pencil.PNG" width="100" height="70" />
 
-  <img src="images/Quiz_Image_Pencil.PNG" width="100" height="70">
-
-    <div class="container">
-    
-        <h1>Welcome to Indigo's Quiz Board</h1>
-        <div>
-        <p><em> Ready to test your knowledge on what you've learnt so far? Great lets begin!</em></p>
-        </div>
+  <div class="container">
+    <h1>Welcome to Indigo's Quiz Board</h1>
+    <div>
+      <p>
+        <em>
+          Ready to test your knowledge on what you've learnt so far? Great
+          lets begin!</em>
+      </p>
     </div>
+  </div>
 
-    <div class="container">
+  <div class="container">
+    <form action="" id="quiz_one">
+      <p>What is the short form of Hypertext Markup language?</p>
 
-        <form action="" id="quiz_one">
+      <input class="form-check-input ouranswers" type="radio" name="ansOne" id="ans_one_a" value="2" />
 
-        <p>What is the short form of Hypertext Markup language? </p>
+      <label class="form-check-label" for="ans_one_a">HTML </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansOne" id="ans_one_a" value="2">
+      <input class="form-check-input ouranswers" type="radio" name="ansOne" id="ans_one_b" value="0" />
 
-        <label class="form-check-label" for="ans_one_a">HTML </label> <br>
+      <label class="form-check-label" for="ans_one_a"> MHTL </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansOne" id="ans_one_b" value ="0">
+      <input class="form-check-input ouranswers" type="radio" name="ansOne" id="ans_one_c" value="0" />
 
-        <label class="form-check-label" for="ans_one_a"> MHTL </label> <br>
+      <label class="form-check-label" for="ans_one_a"> TMHL </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansOne" id="ans_one_c" value="0">
+      <br />
 
-        <label class="form-check-label" for="ans_one_a"> TMHL  </label> <br>
+      <p>How many types of headers are available on HTML by default?</p>
 
-        <br>
+      <input class="form-check-input ouranswers" type="radio" name="ansTwo" id="ans_two_a" value="0" />
 
-        <p>How many types of headers are available on HTML by default?</p>
+      <label class="form-check-label" for="ans_two_a">5 </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansTwo" id="ans_two_a" value="0">
+      <input class="form-check-input ouranswers" type="radio" name="ansTwo" id="ans_two_b" value="0" />
 
-        <label class="form-check-label" for="ans_two_a">5 </label> <br>
+      <label class="form-check-label" for="ans_two_b"> 10 </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansTwo" id="ans_two_b" value="0">
+      <input class="form-check-input ouranswers" type="radio" name="ansTwo" id="ans_two_c" value="2" />
 
-        <label class="form-check-label" for="ans_two_b"> 10 </label> <br>
+      <label class="form-check-label" for="ans_two_c"> 6 </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansTwo" id="ans_two_c" value="2">
+      <br />
 
-        <label class="form-check-label" for="ans_two_c"> 6 </label> <br>
+      <p>Is CSS used for styling?</p>
 
-        <br>
+      <input class="form-check-input ouranswers" type="radio" name="ansThree" id="ans_three_a" value="2" />
 
-        <p>Is CSS used for styling? </p>
+      <label class="form-check-label" for="ans_three_a"> Yes</label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansThree" id="ans_three_a" value="2">
+      <input class="form-check-input ouranswers" type="radio" name="ansThree" id="ans_three_b" value="0" />
 
-        <label class="form-check-label" for="ans_three_a"> Yes</label> <br>
+      <label class="form-check-label" for="ans_three_b"> No </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansThree" id="ans_three_b" value="0">
+      <br />
 
-        <label class="form-check-label" for="ans_three_b"> No </label> <br>
+      <p>Can you Use Javascript to make a Website Interactive?</p>
 
-        <br>
+      <input class="form-check-input ouranswers" type="radio" name="ansFour" id="ans_four_a" value="2" />
 
-        <p>Can you Use Javascript to make a Website Interactive? </p>
+      <label class="form-check-label" for="ans_four_a"> Yes</label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansFour" id="ans_four_a" value ="2">
+      <input class="form-check-input ouranswers" type="radio" name="ansFour" id="ans_four_b" value="0" />
 
-        <label class="form-check-label" for="ans_four_a"> Yes</label> <br>
+      <label class="form-check-label" for="ans_four_b"> No </label> <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansFour" id="ans_four_b" value="0">
+      <br />
 
-        <label class="form-check-label" for="ans_four_b"> No </label> <br>
+      <p>What is the other name of Javascript?</p>
 
-        <br>
+      <input class="form-check-input ouranswers" type="radio" name="ansFive" id="ans_five_a" value="2" />
 
-        <p>What is the other name of Javascript? </p>
+      <label class="form-check-label" for="ans_five_a">ECMAscript </label>
+      <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansFive" id="ans_five_a" value="2">
+      <input class="form-check-input ouranswers" type="radio" name="ansFive" id="ans_five_b" value="0" />
 
-        <label class="form-check-label" for="ans_five_a">ECMAscript </label> <br>
+      <label class="form-check-label" for="ans_five_a"> Typescript </label>
+      <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansFive" id="ans_five_b" value="0">
+      <input class="form-check-input ouranswers" type="radio" name="ansFive" id="ans_five_c" value="0" />
 
-        <label class="form-check-label" for="ans_five_a"> Typescript </label> <br>
+      <label class="form-check-label" for="ans_five_a">I don't Know </label>
+      <br />
 
-        <input class="form-check-input ouranswers" type="radio" name="ansFive" id="ans_five_c" value="0">
+      <br />
 
-        <label class="form-check-label" for="ans_five_a">I don't Know </label> <br>
+      <button type="button" id="submit_ans">SUBMIT</button>
+    </form>
+  </div>
 
-        <br>
+  <div class="container d-none" id="display">
+    <div class="card text-center bg-dark border-dark border-5 my-3 me-2">
+      <div class="card-body text-light">
+        <h6 class="card-title outline-light display-6 congrats">
+          Bravo on taking the quiz!
+        </h6>
 
-        <button type="button" id="submit_ans">SUBMIT</button>
-        
-
-        </form>
-
+        <p class="card-text fs-2 mb-0" id="yourmarks"></p>
+        <input class="btn btn-secondary retake" type="reset" value="Retake Quiz" />
+      </div>
     </div>
+  </div>
 
-   
+  <div class="container">
+    <p>Copyright Indigo (2022)</p>
+  </div>
 
-    <div class="container d-none" id="display">
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+    integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
 
-        <div class="card text-center bg-dark border-dark border-5 my-3 me-2">
-
-            <div class="card-body text-light">
-
-              <h6 class="card-title outline-light display-6 congrats">Bravo on taking the quiz!</h6>
-
-              <p class="card-text fs-2 mb-0" id="yourmarks"></p>
-              <input class="btn btn-secondary retake" type="reset" value="Retake Quiz">
-
-            </div>
-
-        </div>
-
-    </div>
-
- 
-
-    <div class="container">
-
-        <p> Copyright Indigo (2022)</p>
-
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
-
-    <script src="js/quizboard.js"></script>
-
+  <script src="js/quizboard.js"></script>
 </body>
 
 </html>
